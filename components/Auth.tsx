@@ -57,7 +57,7 @@ export const Auth: VFC = () => {
                                 className="disabled:opacity-40 mt-5 py-1 px-3 text-indigo-600 bg-white border-solid border-2 border-indigo-600 hover:bg-indigo-300 hover:text-white hover:border-indigo-300 rounded"
                                 onClick={toggleMode}
                             >
-                                {isLogin ? 'SignUp' : 'Login'}
+                                {isLogin ? 'to SignUp' : 'to Login'}
                             </button>
                         </div>
                     </div>
